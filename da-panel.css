@@ -4,7 +4,8 @@ body::after {
     z-index: 99999999999999;
     bottom: 2rem;
     right: -450px;
-    background: var(--primary-dark), #121212;
+    background: #121212;
+    color:#fff;
     padding: .5rem 1rem;
     border-radius: 3px;
     box-shadow: 0px 0px 10px #000;
