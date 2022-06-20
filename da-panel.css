@@ -1,9 +1,3 @@
-
-.header .header-logo::after {
-    content: 'Powered by free.moshimoe.space';
-    margin-left: .5rem;
-}
-
 .app::before {
     content: 'Free Hosting powered by free.moshimoe.space';
     position: fixed;
