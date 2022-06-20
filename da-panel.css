@@ -1,4 +1,4 @@
-.app::before {
+body::before {
     content: 'Free Hosting powered by free.moshimoe.space';
     position: fixed;
     top:0;
@@ -13,7 +13,7 @@
     pointer-events: none;
 }
 
-.app::after {
+body::after {
     content: 'Thanks for using our Free hosting! Powered by free.moshimoe.space';
     position: fixed;
     z-index: 99999999999999;
