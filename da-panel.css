@@ -1,25 +1,10 @@
-body::before {
-    content: 'Free Hosting powered by free.moshimoe.space';
-    position: fixed;
-    top:0;
-    left:0;
-    width: 100%;
-    text-align:center;
-    z-index:999999999999999;
-    color:#fff;
-    background: rgba(0,0,0,.6);
-    box-shadow: 0px 0px 10px #000;
-    padding: .3rem 0;
-    pointer-events: none;
-}
-
 body::after {
     content: 'Thanks for using our Free hosting! Powered by free.moshimoe.space';
     position: fixed;
     z-index: 99999999999999;
     bottom: 2rem;
     right: -450px;
-    background: var(--primary-dark);
+    background: var(--primary-dark), #121212;
     padding: .5rem 1rem;
     border-radius: 3px;
     box-shadow: 0px 0px 10px #000;
